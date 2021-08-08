@@ -7,14 +7,17 @@
     <link rel="shortcut icon" href="favicon Kopie.ico" type="image/x-icon">  
     <style>
     body {
-        background-color: rgb(53, 178, 209);
         font-size: 18px;
-        font-family:Geneva;
-        color:honeydew;
+        font-family:arial;
+        background-color: rgb(197, 234, 245);
     }
     h1{
         font-size: 50px;
-        font-family: fantasy;
+        font-family: cursive;
+    }
+    h2{
+        font-size: 30px;
+        font-family: cursive;
     }
 </style>
 </head>
@@ -22,25 +25,38 @@
     <title>Learning HTML</title>   
 </head>
 <body>
- <h1>Introduction</h1> 
- <hr>
- <p>Here I used the tag <i>h1</i> to create my first level title. And to add the line under the title I used the <i>hr</i> tag.</p> 
-    <h2>My first HTML tags</h2> <br> The <i>h2</i> tag is used to create a second level title. You can create till 6 levels of titles, ie. h1, h2...h6 
+ <h1>HTML5 & CSS3</h1> 
+<hr>
+ <h2>Creating a HTML document</h2>
+ <p>To create a new html file on Visual Studio Code you have to click on file - new file. Then click on <>index.html and on the page on the right just type ! and the code will appear automatically!</p>
+ <h2>Titles & levels</h2>
+ <p>Here I used the tag <i>h1</i> to create my first level title. And to add the line under the title I used the <i>br</i> tag.</p> The <i>h2</i> tag is used to create a second level title. You can create till 6 levels of titles, ie. h1, h2...h6 
+    <br>
+    <h2>Paragraphs</h2>
+
     <p>To create a paragraph, we use the tag <i>p</i>. But to avoid creating a new paragraph every time we need some space between the sentences, we can use the <i>br</i> tag.</p>
-    <p>I also learned to add an emoji to my text, using the following tag: <i>&#x + an emoji code</i> that can be found at emojipedia.org. </p> 
-    <p>To mark the words with a <mark>yellow marker</mark>, I used the <mark>mark</mark> tag, which is a semantic tag. For that, I first selected the word, then pressed CMD+ALT+P and typed <i>abb</i>, and selected wrap with abbreviation. Then I typed mark and ENTER. This method is really simple and very practical. </p>  
-    <p>I can likewise <mark style="background-color: rgb(219, 111, 165);">change the color of my marker</mark> by using CSS features, or by inserting a <mark style="background-color: greenyellow"> <i>style</i> tag and defining a background-color</mark> into the mark tag.</p>
-    <p>To make words <b>Bold</b>, I did the same procedure with the tag <i>b</i>, which is a non-semantic tag. But I can also make words <b>bold</b> by using the semantic tag: <strong>strong</strong></p>
+    <h2>Emojis</h2>
+    <p>To add an emoji to your text, use the following tag: <i>&#x + an emoji code</i> that can be found at a lovely emoji homepage just by clicking <a href="emojipedia.org" target="_blank" rel="external">here</a>.
+        
+    <h2>Marker</h2>
+    <p>To mark the words with a <mark>yellow marker</mark>, you can encapsulate the <mark>mark</mark> tag, which is a semantic tag. First selected the word, then press CMD+ALT+P and type <i>abb</i> on the field that appears above on the page, and select <i>wrap with abbreviation.</i> Then I type <i>mark</i> and <i>ENTER</i>. This method is really simple and very practical. </p>  
+    <h2>Background Color</h2>
+    <p>You can likewise <mark style="background-color: rgb(219, 111, 165);">change the color of your marker</mark> by using CSS features, or by inserting a <mark style="background-color: greenyellow"> <i>style</i> tag and defining a background-color</mark> into the mark tag.</p>
+    <h2>Bold & Italic</h2>
+    <p>To make words <b>Bold</b>, you do the same using the  <i>b</i> tag, which is a non-semantic tag. But you can also make words <b>bold</b> by using the semantic tag: <strong>strong</strong></p>
     The same procedure can be used to make italic words: we can use the i tag, which is a non-semantic one, or the semantic em tag.
-    In order to inser a picture into my html page, I use the <i>img</i> tag. As I am using the Visual Studio Code, I need just type <i>img</i> and press enter, so that all the command is writen. Inside the "", I should start writing the name of my photo file and press enter to select the file, which is suggested by the program itself. <br> I have already a picture on my file, and the VSC shows it here on the left. <p>This is the Maluoctocat: (so ugly the poor thing :) </p>  <p><img src="583231.png" alt=""></p>
-    And this is how I create a list: <br>
-    I can choose between an ordered list by using <i>ol</i>, or an unordered list, <i>ul</i>.for example: <br>
+    <h2>Pictures</h2>
+    In order to insert a picture into my html page, use the <i>img</i> tag. In case you are using Visual Studio Code, you just need to type <i>img</i> and press enter, so that the command is writen on the screen. Between the quotes "", you should start writing the name of my photo file and press enter to select a file, which is suggested by the program itself. <br> I have already a picture on my file, and the VSC shows it here on the left. This is the Maluoctocat: <img src="583231.png" alt="">
+    <br>
+    <h2>Lists</h2>
+    And this is how you create a list: <br>
+    You can choose between an ordered list by using <i>ol</i>, or an unordered list, <i>ul</i>.for example: <br>
     Things that I have to do today:
     <ol type="1"> 
-    <li>librush my teeth; (very important!)
+    <li> Brush my teeth; (very important!)
     <li> Do the homework; (not so important &#x1F643)
     <li>  Walk the dog;
-    <li>  Learn how to code;
+    <li>  Learn to code;
     <li> Read the news.
     </ol>
 <br> What I did today (here using unordered lists):
@@ -49,16 +65,20 @@
 <li>Slept during the day;
 <li>Ate lots of ice cream;
 <li>Left all important things to do now, at the end of the day.</ul>
-
+    <h2>Favicon</h2>
     Meanwhile, I have created my first favicon, which is easy to insert on top o my page just by using the <i>link: favicon</i> tag, on my <strong>head area.</strong>
     <p>
-It's a neu day! And today, as always, i learned something new: how to add quotes or quotations to my text. <br> There are two different types of quotations: The simple ones and the composed ones. To make a simple cotation I use the q tag, as follows: <br>
+        <h2>Quotations</h2>
+
+<p>It's a neu day! And today, as always, i learned something new: how to add quotes or quotations to my text. <br> There are two different types of quotations: The simple ones and the composed ones. To make a simple quotation I use the <i>q</i> tag, as follows:</p> 
 My mom always says: <q>You should always pray, my dear!</q> <br>
-A complete quotation contains the virtual address where it can be found. For example: <br>
+<p>A complete quotation contains the virtual address where it can be found, which can be done using the semantic <i>blockquote</i> tag. For example:</p>
 According to Keith Schengili-Roberts, we should <blockquote cite="https://www.google.de/books/edition/The_Advanced_HTML_Companion/sq4nAAAAMAAJ?hl=de&gbpv=1&bsq=html&dq=html&printsec=frontcover">write a code so that it can be easily understood later.</blockquote> which does not appear in the html text but should be used in order to preserve the author's copyrights.
 </p>
-<h1>External Links</h1>
-<p>That's really super interesting and super easy!. To create an external link, i.e a link to another home page, I can wrap sentences with the a tag. For example by doing so: you can also visit my <a href= target="_blank rel=external"https://github.com/Maluschiff">public repository on GitHub</a>. After the href= I should type the domain. In order to make this new homepage open in a separate window,I should add: taget="_blank external" just before the domain.</p>
-
+<h2>Using external links</h2>
+    <p><a href="https://github.com/Maluschiff" target="_blank" rel="external" >You can access my public repository on GitHub!</a></p>
+    <p>That's really cool and super easy to do! First of all I should wrap my sentence or word with the <i>a</i> tag and then write the domain just after <b>href=</b></p>
+    <p>Moreover, it is possible to open the new homepage in a separate window, by typing: <b>target="_blank" rel="external"</b> just after the domain especification. I just love it!&#x2764</p>
+    <h2>Using internal links</h2>
 </body>
 </html>
